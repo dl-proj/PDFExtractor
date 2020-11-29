@@ -1,8 +1,8 @@
-# PDFExtractor
+# InvoiceExtractor
 
 ## Overview
 
-This project is to download the scanned pdf files from the AWS S3 bucket, extract the necessary information from them, 
+This project is to download the scanned invoice files from the AWS S3 bucket, extract the necessary information from them, 
 and upload it to S3 bucket again.
 The main part of this project is to extract the necessary information from the whole text with the OCR technology
 including the Tesseract framework and AWS Textract. Also, the image processing technology
